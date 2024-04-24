@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+/* @import url("https://uilight.netlify.app/main.css"); */
+
+*{
+    background-color:rgb(46, 46, 103);
+}
+#wishlist,.container-list{
+    color: aliceblue;
+}
+/* #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+/* } */
+
+#container{
+    text-align: center;
+}
+#add-button{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+    padding: 5px 8px;
+}
+.t-checkbox{
+    width:1.25rem;
+    height:1.25rem;
+
+}
+
+.input-box{
+    background-color: aliceblue;
+    border: none;
+    padding: 5px 8px;
+
+}
+.t-pointer{
+    cursor: pointer;
+}
+.todo-text{
+    word-wrap: break-word;
+    
+}
+.checked-todo{
+    text-decoration: line-through;
+
+}
+.relative{
+    display:flex;
+    margin-left:38%;
+    width: 30%;
+margin-top: 5px;
+    
+    
+   
+
+    
+.absolute{
+    position: absolute;
+}
+
+
+.container-list{
+    border: none;  
+}
+
+  
+.div1{
+    flex: 0.25;
+}
+.div2{
+    flex:0.5;
+    height: auto;
+}
+.div3{
+    flex:0.25 ;
+}
+
+#show-container{
+    padding:50px;
+    margin-left: 50px;
+}
